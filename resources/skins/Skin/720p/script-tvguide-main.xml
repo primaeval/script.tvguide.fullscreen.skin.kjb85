@@ -2042,24 +2042,24 @@
 	                <posx>0</posx>
 	                <posy>0</posy>
 	                <width>930</width>
-	                <height>148</height>
+	                <height>160</height>
 	                <texture>test.png</texture>
                         <aspectratio>fit</aspectratio>
 	            </control>
             <control type="image" id="6004">
                 <description>Channel logo OSD</description>
                 <posx>18</posx>
-                <posy>-26</posy>
-                <width>148</width>
-                <height>178</height>
-                <aspectratio align="left" aligny="center">keep</aspectratio>
+                <posy>37</posy>
+                <width>152</width>
+                <height>56</height>
+                <aspectratio align="center" aligny="center">keep</aspectratio>
                 <colordiffuse>white</colordiffuse>
                 <visible>true</visible>
             </control>
             <control type="label" id="6005">
                 <description>Channel name OSD</description>
                 <posx>24</posx>
-                <posy>9</posy>
+                <posy>10</posy>
                 <width>148</width>
                 <height>23</height>
                 <textcolor>white</textcolor>
@@ -2073,7 +2073,7 @@
                 <posx>178</posx>
                 <posy>12</posy>
                 <width>2</width>
-                <height>106</height>
+                <height>118</height>
                 <texture colordiffuse="darkgreen">tvguide-white-progress.png</texture>
                 <aspectratio>scale</aspectratio>
                 <visible>true</visible>
@@ -2081,19 +2081,19 @@
             <control type="label">
                 <description>Current time label OSD</description>
                 <posx>24</posx>
-                <posy>96</posy>
+                <posy>106</posy>
                 <width>148</width>
                 <height>23</height>
                 <align>center</align>
                 <textcolor>white</textcolor>
-                <font>Bold24</font>
+                <font>font12_title</font>
                 <label fallback="">$INFO[System.Time(hh:mm)] - $INFO[System.Date(dd)] $INFO[System.Date(MMM)] $INFO[System.Date(yy)]</label>
                 <visible>true</visible>
             </control>
             <control type="image">
                 <description>Osd button contextmenu current program</description>
                 <posx>188</posx>
-                <posy>9</posy>
+                <posy>11</posy>
                 <width>30</width>
                 <height>30</height>
                 <texture>now-button.png</texture>
@@ -2102,7 +2102,7 @@
             <control type="image">
                 <description>Osd button contextmenu next program</description>
                 <posx>188</posx>
-                <posy>94</posy>
+                <posy>101</posy>
                 <width>30</width>
                 <height>30</height>
                 <texture>next-button.png</texture>
@@ -2111,7 +2111,7 @@
             <control type="label" id="60021">
                 <description>Program start time OSD</description>
                 <posx>220</posx>
-                <posy>11</posy>
+                <posy>13</posy>
                 <width>85</width>
                 <height>23</height>  
                 <aligny>center</aligny>
@@ -2121,30 +2121,30 @@
             </control>
             <control type="label" id="6001">
                 <description>Program title OSD</description>
-                <posx>284</posx>
+                <posx>306</posx>
                 <posy>11</posy>
-                <width>542</width>
+                <width>534</width>
                 <height>23</height>
-                <font>Bold30</font>
+                <font>font13_title</font>
                 <textcolor>white</textcolor>
                 <scroll>true</scroll>
             </control>
             <control type="textbox" id="6003">
                 <description>Program description OSD</description>
-                <posx>284</posx>
-                <posy>34</posy>
-                <width>542</width>
-                <height>60</height>
+                <posx>306</posx>
+                <posy>37</posy>
+                <width>534</width>
+                <height>62</height>
                 <label>Description</label>
                 <textcolor>white</textcolor>
-                <font>Reg22</font>
+                <font>font12</font>
                 <wrapmultiline>true</wrapmultiline>
                 <autoscroll time="3600" delay="6000" repeat="6000">true</autoscroll>
             </control>
             <control type="label" id="60091">
                 <description>Next Program start time OSD align left</description>
                 <posx>220</posx>
-                <posy>96</posy>
+                <posy>104</posy>
                 <width>85</width>
                 <height>23</height>
                 <aligny>center</aligny>
@@ -2154,11 +2154,11 @@
             </control>            
             <control type="label" id="6008">
                 <description>Next Program title OSD align left</description>
-                <posx>284</posx>
-                <posy>96</posy>
-                <width>542</width>
+                <posx>306</posx>
+                <posy>101</posy>
+                <width>534</width>
                 <height>23</height>
-                <font>Bold30</font>
+                <font>font13_title</font>
                 <textcolor>white</textcolor>
                 <scroll>true</scroll>
             </control>
@@ -2167,52 +2167,52 @@
                 <posx>846</posx>
                 <posy>12</posy>
                 <width>2</width>
-                <height>106</height>
+                <height>118</height>
                 <texture colordiffuse="darkgreen">tvguide-white-progress.png</texture>
                 <aspectratio>scale</aspectratio>
                 <visible>true</visible>
             </control>
 
            <control type="grouplist">
-            <posx>860</posx>
+            <posx>858</posx>
             <posy>14</posy>	
             <orientation>vertical</orientation>
-            <itemgap>9</itemgap>
+            <itemgap>11</itemgap>
             <animation effect="fade" time="150">VisibleChange</animation>
             <!--<visible>![Window.IsVisible(SliderDialog) | Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(OSDAudioDSPSettings) | Window.IsVisible(VideoBookmarks) | Window.IsVisible(PVROSDChannels) | Window.IsVisible(PVROSDGuide)]</visible>-->
             <visible>Player.HasMedia</visible>
                 <control type="image">
                     <description>Video AspectRatio Image</description>
-                    <width>28</width>
-                    <height>13</height>
+                    <width>32</width>
+                    <height>14</height>
                     <texture>$INFO[VideoPlayer.VideoAspect,flags/aspectratio/,.png]</texture>
                     <visible>!Player.ChannelPreviewActive</visible>
                 </control>
                 <control type="image">
                     <description>Video Resolution Image</description>
-                    <width>28</width>
-                    <height>13</height>        
+                    <width>32</width>
+                    <height>14</height>        
                     <texture>$INFO[VideoPlayer.VideoResolution,flags/videoresolution/,.png]</texture>
                     <visible>!Player.ChannelPreviewActive</visible>
                </control>
                 <control type="image">
                     <description>Video VideoCodec Image</description>
-                    <width>28</width>
-                    <height>13</height>
+                    <width>32</width>
+                    <height>14</height>
                     <texture>$INFO[VideoPlayer.VideoCodec,flags/videocodec/,.png]</texture>
                     <visible>!Player.ChannelPreviewActive</visible>
                 </control>
                 <control type="image">
                     <description>Audio Channels Image</description>
-                    <width>28</width>
-                    <height>13</height>
+                    <width>32</width>
+                    <height>14</height>
                     <texture>$INFO[VideoPlayer.AudioChannels,flags/audiochannel/,.png]</texture>
                     <visible>!Player.ChannelPreviewActive</visible>
                 </control>
                 <control type="image">
                     <description>Audio Codec Image</description>
-                    <width>28</width>
-                    <height>13</height>  
+                    <width>32</width>
+                    <height>14</height>  
                     <texture>$INFO[VideoPlayer.AudioCodec,flags/audiocodec/,.png]</texture>
                 </control>
                 </control>
