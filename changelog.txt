@@ -1,12 +1,12 @@
-version 0.0.5
+version 0.17.5
 - OSD update, added mediaflags
 
-version 0.0.4
+version 0.17.4
 - OSD update
 - changed timebar
 
-version 0.0.2
+version 0.17.2
 - click to install
 
-version 0.0.1
+version 0.17.1
 - start here
