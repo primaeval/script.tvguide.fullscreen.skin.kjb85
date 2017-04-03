@@ -884,7 +884,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4110),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4110),)</visible>
                 </control>
                 <control type="label" id="4011">
                     <description>2nd channel</description>
@@ -897,7 +897,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4111),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4111),)</visible>
                 </control>
                 <control type="label" id="4012">
                     <description>3rd channel</description>
@@ -910,7 +910,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4112),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4112),)</visible>
                 </control>
                 <control type="label" id="4013">
                     <description>4th channel</description>
@@ -923,7 +923,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4113),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4113),)</visible>
                 </control>
                 <control type="label" id="4014">
                     <description>5th channel</description>
@@ -936,7 +936,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4114),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4114),)</visible>
                 </control>
                 <control type="label" id="4015">
                     <description>6th channel</description>
@@ -949,7 +949,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4115),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4115),)</visible>
                 </control>
                 <control type="label" id="4016">
                     <description>7th channel</description>
@@ -962,7 +962,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4116),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4116),)</visible>
                 </control>
                 <control type="label" id="4017">
                     <description>8th channel</description>
@@ -975,7 +975,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4117),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4117),)</visible>
                 </control>
                 <control type="label" id="4018">
                     <description>9th channel</description>
@@ -988,7 +988,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4118),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4118),)</visible>
                 </control>
                 <control type="label" id="4019">
                     <description>10 channel</description>
@@ -1001,7 +1001,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4119),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4119),)</visible>
                     <texturenofocus>tvguide-program-grey.png</texturenofocus>
                 </control>
                 <control type="label" id="4020">
@@ -1015,7 +1015,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4120),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4120),)</visible>
                     <texturenofocus>tvguide-program-grey.png</texturenofocus>
                 </control>
                 <control type="label" id="4021">
@@ -1029,7 +1029,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4121),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4121),)</visible>
                 </control>
                 <control type="label" id="4022">
                     <description>13 channel</description>
@@ -1042,7 +1042,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4122),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4122),)</visible>
                 </control>
                 <control type="label" id="4023">
                     <description>14 channel</description>
@@ -1055,7 +1055,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4123),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4123),)</visible>
                 </control>
                 <control type="label" id="4024">
                     <description>15 channel</description>
@@ -1068,7 +1068,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4124),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4124),)</visible>
                 </control>
                 <control type="label" id="4025">
                     <description>16 channel</description>
@@ -1081,7 +1081,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4125), )</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4125), )</visible>
                 </control>
 
                 <!-- logo images -->
@@ -1092,7 +1092,7 @@
                     <width>160</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4110),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4110),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -1103,7 +1103,7 @@
                     <width>160</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4111),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4111),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -1114,7 +1114,7 @@
                     <width>160</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4112),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4112),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -1125,7 +1125,7 @@
                     <width>160</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4113),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4113),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -1136,7 +1136,7 @@
                     <width>160</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4114),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4114),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -1147,7 +1147,7 @@
                     <width>160</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4115),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4115),)</visible>
                 </control>
                 <control type="image" id="4116">
                     <description>7th channel</description>
@@ -1156,7 +1156,7 @@
                     <width>160</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4116),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4116),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -1167,7 +1167,7 @@
                     <width>160</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4117),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4117),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -1178,7 +1178,7 @@
                     <width>160</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4118),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4118),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -1189,7 +1189,7 @@
                     <width>160</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4119),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4119),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -1200,7 +1200,7 @@
                     <width>160</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4120),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4120),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -1211,7 +1211,7 @@
                     <width>160</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4121),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4121),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -1222,7 +1222,7 @@
                     <width>160</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4122),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4122),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -1233,7 +1233,7 @@
                     <width>160</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4123),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4123),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -1244,7 +1244,7 @@
                     <width>160</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4124),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4124),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -1255,7 +1255,7 @@
                     <width>160</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4125),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4125),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -2032,8 +2032,8 @@
             <description>visibility marker for OSD Info bar</description>
         </control>
 	        <control type="group">
-	    		<posx>0</posx>
-	    		<posy>505</posy>
+	    		<posx>175</posx>
+	    		<posy>570</posy>
             <visible>!Control.IsVisible(6000)</visible>
             <animation effect="fade" start="0" end="100" time="0">VisibleChange</animation>
   
@@ -2041,240 +2041,183 @@
 	                <description>Glass Logo</description>
 	                <posx>0</posx>
 	                <posy>0</posy>
-	                <width>860</width>
-	                <height>82</height>
-	                <texture>glasspane-light.png</texture>
+	                <width>930</width>
+	                <height>148</height>
+	                <texture>test.png</texture>
                         <aspectratio>fit</aspectratio>
-
 	            </control>
-
-	            <control type="image" id="6004">
-	                <description>Program channel logo</description>
-	                <posx>36</posx>
-	                <posy>22</posy>
-	                <width>160</width>
-	                <height>40</height>
-	                <align>left</align>
-                <aspectratio>keep</aspectratio>
+            <control type="image" id="6004">
+                <description>Channel logo OSD</description>
+                <posx>18</posx>
+                <posy>-26</posy>
+                <width>148</width>
+                <height>178</height>
+                <aspectratio align="left" aligny="center">keep</aspectratio>
                 <colordiffuse>white</colordiffuse>
-	            </control>
+                <visible>true</visible>
+            </control>
+            <control type="label" id="6005">
+                <description>Channel name OSD</description>
+                <posx>24</posx>
+                <posy>9</posy>
+                <width>148</width>
+                <height>23</height>
+                <textcolor>white</textcolor>
+                <font>font10</font>
+                <align>center</align>
+                <visible>true</visible>
+		<autoscroll>true</autoscroll>
+            </control>
+            <control type="image">
+                <description>Separation line left</description>
+                <posx>178</posx>
+                <posy>12</posy>
+                <width>2</width>
+                <height>106</height>
+                <texture colordiffuse="darkgreen">tvguide-white-progress.png</texture>
+                <aspectratio>scale</aspectratio>
+                <visible>true</visible>
+            </control>
+            <control type="label">
+                <description>Current time label OSD</description>
+                <posx>24</posx>
+                <posy>96</posy>
+                <width>148</width>
+                <height>23</height>
+                <align>center</align>
+                <textcolor>white</textcolor>
+                <font>Bold24</font>
+                <label fallback="">$INFO[System.Time(hh:mm)] - $INFO[System.Date(dd)] $INFO[System.Date(MMM)] $INFO[System.Date(yy)]</label>
+                <visible>true</visible>
+            </control>
+            <control type="image">
+                <description>Osd button contextmenu current program</description>
+                <posx>188</posx>
+                <posy>9</posy>
+                <width>30</width>
+                <height>30</height>
+                <texture>now-button.png</texture>
+                <aspectratio>fit</aspectratio>
+            </control>
+            <control type="image">
+                <description>Osd button contextmenu next program</description>
+                <posx>188</posx>
+                <posy>94</posy>
+                <width>30</width>
+                <height>30</height>
+                <texture>next-button.png</texture>
+                <aspectratio>fit</aspectratio>
+            </control>
+            <control type="label" id="60021">
+                <description>Program start time OSD</description>
+                <posx>220</posx>
+                <posy>11</posy>
+                <width>85</width>
+                <height>23</height>  
+                <aligny>center</aligny>
+                <label>[B]18:00[/B]</label>
+                <textcolor>white</textcolor>
+                <font>font12</font>
+            </control>
+            <control type="label" id="6001">
+                <description>Program title OSD</description>
+                <posx>284</posx>
+                <posy>11</posy>
+                <width>542</width>
+                <height>23</height>
+                <font>Bold30</font>
+                <textcolor>white</textcolor>
+                <scroll>true</scroll>
+            </control>
+            <control type="textbox" id="6003">
+                <description>Program description OSD</description>
+                <posx>284</posx>
+                <posy>34</posy>
+                <width>542</width>
+                <height>60</height>
+                <label>Description</label>
+                <textcolor>white</textcolor>
+                <font>Reg22</font>
+                <wrapmultiline>true</wrapmultiline>
+                <autoscroll time="3600" delay="6000" repeat="6000">true</autoscroll>
+            </control>
+            <control type="label" id="60091">
+                <description>Next Program start time OSD align left</description>
+                <posx>220</posx>
+                <posy>96</posy>
+                <width>85</width>
+                <height>23</height>
+                <aligny>center</aligny>
+                <label>[B]18:00[/B]</label>
+                <textcolor>white</textcolor>
+                <font>font12</font>
+            </control>            
+            <control type="label" id="6008">
+                <description>Next Program title OSD align left</description>
+                <posx>284</posx>
+                <posy>96</posy>
+                <width>542</width>
+                <height>23</height>
+                <font>Bold30</font>
+                <textcolor>white</textcolor>
+                <scroll>true</scroll>
+            </control>
+            <control type="image">
+                <description>Separation line right</description>
+                <posx>846</posx>
+                <posy>12</posy>
+                <width>2</width>
+                <height>106</height>
+                <texture colordiffuse="darkgreen">tvguide-white-progress.png</texture>
+                <aspectratio>scale</aspectratio>
+                <visible>true</visible>
+            </control>
 
-	            <control type="label" id="6005">
-	                <description>Program channel text</description>
-	                <posx>260</posx>
-	                <posy>5</posy>
-	                <width>560</width>
-	                <height>35</height>
-	                <textcolor>FFFFFFFF</textcolor>
-	                <shadowcolor>ff000000</shadowcolor>
-	                <font>font14</font>
-	                <aligny>center</aligny>
-	                <align>left</align>
-	            </control>
-	            <control type="label" id="6002">
-	                <description>Program Time</description>
-	                <posx>686</posx>
-	                <posy>5</posy>
-	                <width>175</width>
-	                <textcolor>FFFFFFFF</textcolor>
-	                <shadowcolor>ff000000</shadowcolor>
-	                <font>font12</font>
-	                <label>18:00 - 20:00</label>
-	                <height>35</height>
-	                <aligny>center</aligny>
-	                <align>left</align>
-	            </control>
-				
+           <control type="grouplist">
+            <posx>860</posx>
+            <posy>14</posy>	
+            <orientation>vertical</orientation>
+            <itemgap>9</itemgap>
+            <animation effect="fade" time="150">VisibleChange</animation>
+            <!--<visible>![Window.IsVisible(SliderDialog) | Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(OSDAudioDSPSettings) | Window.IsVisible(VideoBookmarks) | Window.IsVisible(PVROSDChannels) | Window.IsVisible(PVROSDGuide)]</visible>-->
+            <visible>Player.HasMedia</visible>
+                <control type="image">
+                    <description>Video AspectRatio Image</description>
+                    <width>28</width>
+                    <height>13</height>
+                    <texture>$INFO[VideoPlayer.VideoAspect,flags/aspectratio/,.png]</texture>
+                    <visible>!Player.ChannelPreviewActive</visible>
+                </control>
+                <control type="image">
+                    <description>Video Resolution Image</description>
+                    <width>28</width>
+                    <height>13</height>        
+                    <texture>$INFO[VideoPlayer.VideoResolution,flags/videoresolution/,.png]</texture>
+                    <visible>!Player.ChannelPreviewActive</visible>
+               </control>
+                <control type="image">
+                    <description>Video VideoCodec Image</description>
+                    <width>28</width>
+                    <height>13</height>
+                    <texture>$INFO[VideoPlayer.VideoCodec,flags/videocodec/,.png]</texture>
+                    <visible>!Player.ChannelPreviewActive</visible>
+                </control>
+                <control type="image">
+                    <description>Audio Channels Image</description>
+                    <width>28</width>
+                    <height>13</height>
+                    <texture>$INFO[VideoPlayer.AudioChannels,flags/audiochannel/,.png]</texture>
+                    <visible>!Player.ChannelPreviewActive</visible>
+                </control>
+                <control type="image">
+                    <description>Audio Codec Image</description>
+                    <width>28</width>
+                    <height>13</height>  
+                    <texture>$INFO[VideoPlayer.AudioCodec,flags/audiocodec/,.png]</texture>
+                </control>
+                </control>
 
 
-	            <control type="label" id="6001">
-	                <description>NOW Details</description>
-	                <posx>260</posx>
-	                <posy>41</posy>
-	                <width>580</width>
-	                <height>35</height>
-	                <textcolor>FFFFFFFF</textcolor>
-	                <shadowcolor>ff000000</shadowcolor>
-	                <font>font16</font>
-	                <autoscroll time="3600" delay="3000" repeat="6000">true</autoscroll>
-	                <aligny>center</aligny>
-	                <align>left</align>
-	                <label>Title</label>
-	            </control>
-
-	     
-        </control>
-
-			<!-- TITLE BAR -->
-	        <control type="group" id="7001">
-	            <posx>0</posx>
-	            <posy>684</posy>
-            <visible>!Control.IsVisible(6000)</visible>
-            <animation effect="fade" start="0" end="100" time="0">VisibleChange</animation>
-	            <control type="image">
-	                <posx>0</posx>
-	                <posy>0</posy>
-	                <description>Title Bar</description>
-	                <width>1280</width>
-	                <height>40</height>
-	                <texture>bottom_border_shadow1.png</texture>
-	                <aspectratio>fit</aspectratio>
-                    </control>
-				<control type="group">
-	                <posx>25</posx>
-	                <posy>23</posy>
-		            <control type="image">
-		                <description>Kodi Logo</description>
-		                <texture>kodi-logo.png</texture>
-		                <posx>0</posx>
-		                <posy>-20</posy>
-		                <width>112</width>
-		                <height>33</height>
-		        		<aligny>top</aligny>
-		                <align>left</align>
-		            </control>
-
-			</control>
-	            <control type="label">
-	                <description>Date</description>
-	                <posx>1260</posx>
-	                <posy>4</posy>
-	                <width>300</width>
-	                <height>35</height>
-	                <font>font13</font>
-	                <aligny>top</aligny>
-	                <align>right</align>
-	                <textcolor>ffffffff</textcolor>
-	                <shadowcolor>ff000000</shadowcolor>
-	                <label>$INFO[System.Date(DDD dd MMM yyyy)]</label>
-	            </control>
-	            <control type="label">
-	                <description>Time</description>
-	                <posx>610</posx>
-	                <posy>4</posy>
-	                <width>90</width>
-	                <height>35</height>
-	                <font>font13</font>
-	                <aligny>top</aligny>
-	                <align>left</align>
-	                <textcolor>ffffffff</textcolor>
-	                <shadowcolor>ff000000</shadowcolor>
-	                <label>$INFO[System.Time]</label>
-	            </control>
-	        </control>
-
-	        <!-- PROGRAM DESCRIPTION-->
-	        <control type="group" id="7002">
-	            <posx>0</posx>
-	            <posy>575</posy>
-            <visible>!Control.IsVisible(6000)</visible>
-            <animation effect="fade" start="0" end="100" time="0">VisibleChange</animation>
-	            <control type="image">
-	                <posx>0</posx>
-	                <posy>12</posy>
-	                <description>Program Info Background</description>
-	                <width>860</width>
-	                <height>97</height>
-	                <texture>glasspane-dark.png</texture>
-                        <aspectratio>fit</aspectratio>
-	            </control>
-	            <control type="textbox" id="6003">
-	                <description>Program Info</description>
-	                <label>Program Info</label>
-	                <posx>15</posx>
-	                <posy>16</posy>
-	                <width>840</width>
-	                <height>78</height>
-	                <textcolor>FFFFFFFF</textcolor>
-	                <shadowcolor>ff000000</shadowcolor>
-	                <font>font13</font>
-	                <autoscroll time="3600" delay="6000" repeat="6000">true</autoscroll>
-	                <aligny>top</aligny>
-	                <align>left</align>
-	            </control>
-	        </control>
-        	
-	        <!--Next Up-->
-                        <control type="group" id="9000">
-	    		<posx>0</posx>
-	    		<posy>505</posy>
-            <visible>!Control.IsVisible(6000)</visible>
-            <animation effect="fade" start="0" end="100" time="0">VisibleChange</animation>
-
-	
-	            <control type="image">
-	                <description>Glass Top</description>
-	                <posx>869</posx>
-	                <posy>0</posy>
-	                <width>410</width>
-	                <height>82</height>
-	                <texture>glasspane-lightnext.png</texture>
-	                <aspectratio>fit</aspectratio>
-	            </control>
-
-	                <control type="image">
-	                <posx>869</posx>
-	                <posy>82</posy>
-	                <description>Program Info Background</description>
-	                <width>410</width>
-	                <height>97</height>
-	                <texture>glasspane-darknext.png</texture>
-                        <aspectratio>fit</aspectratio>
-</control>
-	            <control type="label" id="6008">
-	                <description>NEXT Label</description>
-	                <posx>884</posx>
-	                <posy>41</posy>
-	                <width>386</width>
-	                <height>35</height>
-	                <textcolor>FFFFFFFF</textcolor>
-	                <shadowcolor>ff000000</shadowcolor>
-	                <font>font16</font>
-                        <scroll>true</scroll>
-	                <aligny>center</aligny>
-	                <align>left</align>
-	                <label>[I]italics[/I]</label>
-	            </control>
-                    <control type="label">
-                       <description>Up Next Label</description>
-               		<posx>884</posx>
-                        <posy>5</posy>
-                        <width>180</width>
-                        <height>35</height>
-                        <font>font14</font>
-                        <aligny>top</aligny>
-                        <align>left</align>
-                        <textcolor>ffffffff</textcolor>
-                        <shadowcolor>ff000000</shadowcolor>				
-                        <label>[I]Up Next[/I]</label>
-                    </control>
-       	            <control type="textbox" id="6007">
-	                <description>Program Info</description>
-	                <label>Next</label>
-	                <posx>884</posx>
-	                <posy>86</posy>
-	                <width>386</width>
-	                <height>78</height>
-	                <textcolor>FFFFFFFF</textcolor>
-	                <shadowcolor>ff000000</shadowcolor>
-	                <font>font13</font>
-	                <autoscroll time="3600" delay="6000" repeat="6000">true</autoscroll>
-	                <aligny>top</aligny>
-	                <align>left</align>
-	            </control>
-	            <control type="label" id="6009">
-	                <description>Program Time</description>
-	                <posx>1106</posx>
-	                <posy>5</posy>
-	                <width>175</width>
-	                <textcolor>FFFFFFFF</textcolor>
-	                <shadowcolor>ff000000</shadowcolor>
-	                <font>font12</font>
-	                <label>18:00 - 20:00</label>
-	                <height>35</height>
-	                <aligny>center</aligny>
-	                <align>left</align>
-	            </control>
 
 
 </control>
@@ -2405,7 +2348,7 @@
                 <textcolor>grey</textcolor>
                 <font>font13_title</font>
                 <align>left</align>
-                <!--<visible>StringCompare(Control.GetLabel(6004),)</visible>-->
+                <!--<visible>String.IsEqual(Control.GetLabel(6004),)</visible>-->
                 <visible>true</visible>
             </control>
             <control type="label">
@@ -2850,7 +2793,7 @@
                     <font>font13_title</font>
                     <align>center</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(14110),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(14110),)</visible>
                 </control>
                 <control type="label" id="14011">
                     <description>2nd channel</description>
@@ -2863,7 +2806,7 @@
                     <font>font13_title</font>
                     <align>center</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(14111),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(14111),)</visible>
                 </control>
                 <control type="label" id="14012">
                     <description>3rd channel</description>
@@ -2876,7 +2819,7 @@
                     <font>font13_title</font>
                     <align>center</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(14112),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(14112),)</visible>
                 </control>
 
                 <!-- logo images -->
@@ -2887,7 +2830,7 @@
                     <width>176</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(14110),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(14110),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -2898,7 +2841,7 @@
                     <width>176</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(14111),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(14111),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -2909,7 +2852,7 @@
                     <width>176</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(14112),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(14112),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
