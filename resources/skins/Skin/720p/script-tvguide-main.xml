@@ -2102,7 +2102,7 @@
             <control type="image">
                 <description>Osd button contextmenu next program</description>
                 <posx>188</posx>
-                <posy>101</posy>
+                <posy>104</posy>
                 <width>30</width>
                 <height>30</height>
                 <texture>next-button.png</texture>
@@ -2144,7 +2144,7 @@
             <control type="label" id="60091">
                 <description>Next Program start time OSD align left</description>
                 <posx>220</posx>
-                <posy>104</posy>
+                <posy>106</posy>
                 <width>85</width>
                 <height>23</height>
                 <aligny>center</aligny>
@@ -2155,7 +2155,7 @@
             <control type="label" id="6008">
                 <description>Next Program title OSD align left</description>
                 <posx>306</posx>
-                <posy>101</posy>
+                <posy>104</posy>
                 <width>534</width>
                 <height>23</height>
                 <font>font13_title</font>
