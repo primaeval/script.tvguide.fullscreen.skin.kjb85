@@ -1,5 +1,5 @@
 version 0.0.5
-- OSD update, added mediaflags
+- OSD update
 
 version 0.0.4
 - OSD update
