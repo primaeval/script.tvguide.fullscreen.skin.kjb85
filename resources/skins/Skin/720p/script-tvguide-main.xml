@@ -2066,7 +2066,7 @@
                 <font>font12</font>
                 <align>center</align>
                 <visible>true</visible>
-		<autoscroll>true</autoscroll>
+		<scroll>true</scroll>
             </control>
             <control type="image">
                 <description>Separation line left</description>
@@ -2117,23 +2117,23 @@
                 <aligny>center</aligny>
                 <label>[B]18:00[/B]</label>
                 <textcolor>white</textcolor>
-                <font>font12</font>
+                <font>font14</font>
             </control>
             <control type="label" id="6001">
                 <description>Program title OSD</description>
-                <posx>336</posx>
-                <posy>12</posy>
-                <width>534</width>
+                <posx>338</posx>
+                <posy>14</posy>
+                <width>760</width>
                 <height>30</height>
-                <font>font24_title</font>
+                <font>font14_bold</font>
                 <textcolor>white</textcolor>
                 <scroll>true</scroll>
             </control>
             <control type="textbox" id="6003">
                 <description>Program description OSD</description>
-                <posx>336</posx>
+                <posx>338</posx>
                 <posy>45</posy>
-                <width>766</width>
+                <width>760</width>
                 <height>72</height>
                 <label>Description</label>
                 <textcolor>white</textcolor>
@@ -2150,15 +2150,15 @@
                 <aligny>center</aligny>
                 <label>[B]18:00[/B]</label>
                 <textcolor>white</textcolor>
-                <font>font12</font>
+                <font>font14</font>
             </control>            
             <control type="label" id="6008">
                 <description>Next Program title OSD align left</description>
-                <posx>336</posx>
-                <posy>124</posy>
-                <width>766</width>
+                <posx>338</posx>
+                <posy>130</posy>
+                <width>760</width>
                 <height>23</height>
-                <font>font24_title</font>
+                <font>font14_bold</font>
                 <textcolor>white</textcolor>
                 <scroll>true</scroll>
             </control>
