@@ -2032,8 +2032,8 @@
             <description>visibility marker for OSD Info bar</description>
         </control>
 	        <control type="group">
-	    		<posx>175</posx>
-	    		<posy>570</posy>
+	    		<posx>74</posx>
+	    		<posy>548</posy>
             <visible>!Control.IsVisible(6000)</visible>
             <animation effect="fade" start="0" end="100" time="0">VisibleChange</animation>
   
@@ -2041,17 +2041,17 @@
 	                <description>Glass Logo</description>
 	                <posx>0</posx>
 	                <posy>0</posy>
-	                <width>930</width>
-	                <height>160</height>
+	                <width>1132</width>
+	                <height>192</height>
 	                <texture>test.png</texture>
                         <aspectratio>fit</aspectratio>
 	            </control>
             <control type="image" id="6004">
                 <description>Channel logo OSD</description>
                 <posx>18</posx>
-                <posy>37</posy>
-                <width>152</width>
-                <height>56</height>
+                <posy>40</posy>
+                <width>178</width>
+                <height>84</height>
                 <aspectratio align="center" aligny="center">keep</aspectratio>
                 <colordiffuse>white</colordiffuse>
                 <visible>true</visible>
@@ -2059,21 +2059,21 @@
             <control type="label" id="6005">
                 <description>Channel name OSD</description>
                 <posx>24</posx>
-                <posy>10</posy>
-                <width>148</width>
+                <posy>12</posy>
+                <width>178</width>
                 <height>23</height>
                 <textcolor>white</textcolor>
-                <font>font10</font>
+                <font>font12</font>
                 <align>center</align>
                 <visible>true</visible>
-		<autoscroll>true</autoscroll>
+		<scroll>true</scroll>
             </control>
             <control type="image">
                 <description>Separation line left</description>
-                <posx>178</posx>
-                <posy>12</posy>
+                <posx>208</posx>
+                <posy>14</posy>
                 <width>2</width>
-                <height>118</height>
+                <height>138</height>
                 <texture colordiffuse="darkgreen">tvguide-white-progress.png</texture>
                 <aspectratio>scale</aspectratio>
                 <visible>true</visible>
@@ -2081,8 +2081,8 @@
             <control type="label">
                 <description>Current time label OSD</description>
                 <posx>24</posx>
-                <posy>106</posy>
-                <width>148</width>
+                <posy>130</posy>
+                <width>178</width>
                 <height>23</height>
                 <align>center</align>
                 <textcolor>white</textcolor>
@@ -2092,8 +2092,8 @@
             </control>
             <control type="image">
                 <description>Osd button contextmenu current program</description>
-                <posx>188</posx>
-                <posy>11</posy>
+                <posx>217</posx>
+                <posy>15</posy>
                 <width>30</width>
                 <height>30</height>
                 <texture>now-button.png</texture>
@@ -2101,8 +2101,8 @@
             </control>
             <control type="image">
                 <description>Osd button contextmenu next program</description>
-                <posx>188</posx>
-                <posy>104</posy>
+                <posx>218</posx>
+                <posy>128</posy>
                 <width>30</width>
                 <height>30</height>
                 <texture>next-button.png</texture>
@@ -2110,115 +2110,58 @@
             </control>
             <control type="label" id="60021">
                 <description>Program start time OSD</description>
-                <posx>220</posx>
-                <posy>13</posy>
+                <posx>250</posx>
+                <posy>18</posy>
                 <width>85</width>
                 <height>23</height>  
                 <aligny>center</aligny>
                 <label>[B]18:00[/B]</label>
                 <textcolor>white</textcolor>
-                <font>font12</font>
+                <font>font14</font>
             </control>
             <control type="label" id="6001">
                 <description>Program title OSD</description>
-                <posx>306</posx>
-                <posy>11</posy>
-                <width>534</width>
-                <height>23</height>
-                <font>font13_title</font>
+                <posx>338</posx>
+                <posy>14</posy>
+                <width>760</width>
+                <height>30</height>
+                <font>font14_bold</font>
                 <textcolor>white</textcolor>
                 <scroll>true</scroll>
             </control>
             <control type="textbox" id="6003">
                 <description>Program description OSD</description>
-                <posx>306</posx>
-                <posy>37</posy>
-                <width>534</width>
-                <height>62</height>
+                <posx>338</posx>
+                <posy>45</posy>
+                <width>760</width>
+                <height>72</height>
                 <label>Description</label>
                 <textcolor>white</textcolor>
-                <font>font12</font>
+                <font>font13</font>
                 <wrapmultiline>true</wrapmultiline>
                 <autoscroll time="3600" delay="6000" repeat="6000">true</autoscroll>
             </control>
             <control type="label" id="60091">
                 <description>Next Program start time OSD align left</description>
-                <posx>220</posx>
-                <posy>106</posy>
+                <posx>250</posx>
+                <posy>130</posy>
                 <width>85</width>
                 <height>23</height>
                 <aligny>center</aligny>
                 <label>[B]18:00[/B]</label>
                 <textcolor>white</textcolor>
-                <font>font12</font>
+                <font>font14</font>
             </control>            
             <control type="label" id="6008">
                 <description>Next Program title OSD align left</description>
-                <posx>306</posx>
-                <posy>104</posy>
-                <width>534</width>
+                <posx>338</posx>
+                <posy>130</posy>
+                <width>760</width>
                 <height>23</height>
-                <font>font13_title</font>
+                <font>font14_bold</font>
                 <textcolor>white</textcolor>
                 <scroll>true</scroll>
             </control>
-            <control type="image">
-                <description>Separation line right</description>
-                <posx>846</posx>
-                <posy>12</posy>
-                <width>2</width>
-                <height>118</height>
-                <texture colordiffuse="darkgreen">tvguide-white-progress.png</texture>
-                <aspectratio>scale</aspectratio>
-                <visible>true</visible>
-            </control>
-
-           <control type="grouplist">
-            <posx>858</posx>
-            <posy>14</posy>	
-            <orientation>vertical</orientation>
-            <itemgap>11</itemgap>
-            <animation effect="fade" time="150">VisibleChange</animation>
-            <!--<visible>![Window.IsVisible(SliderDialog) | Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(OSDAudioDSPSettings) | Window.IsVisible(VideoBookmarks) | Window.IsVisible(PVROSDChannels) | Window.IsVisible(PVROSDGuide)]</visible>-->
-            <visible>Player.HasMedia</visible>
-                <control type="image">
-                    <description>Video AspectRatio Image</description>
-                    <width>32</width>
-                    <height>14</height>
-                    <texture>$INFO[VideoPlayer.VideoAspect,flags/aspectratio/,.png]</texture>
-                    <visible>!Player.ChannelPreviewActive</visible>
-                </control>
-                <control type="image">
-                    <description>Video Resolution Image</description>
-                    <width>32</width>
-                    <height>14</height>        
-                    <texture>$INFO[VideoPlayer.VideoResolution,flags/videoresolution/,.png]</texture>
-                    <visible>!Player.ChannelPreviewActive</visible>
-               </control>
-                <control type="image">
-                    <description>Video VideoCodec Image</description>
-                    <width>32</width>
-                    <height>14</height>
-                    <texture>$INFO[VideoPlayer.VideoCodec,flags/videocodec/,.png]</texture>
-                    <visible>!Player.ChannelPreviewActive</visible>
-                </control>
-                <control type="image">
-                    <description>Audio Channels Image</description>
-                    <width>32</width>
-                    <height>14</height>
-                    <texture>$INFO[VideoPlayer.AudioChannels,flags/audiochannel/,.png]</texture>
-                    <visible>!Player.ChannelPreviewActive</visible>
-                </control>
-                <control type="image">
-                    <description>Audio Codec Image</description>
-                    <width>32</width>
-                    <height>14</height>  
-                    <texture>$INFO[VideoPlayer.AudioCodec,flags/audiocodec/,.png]</texture>
-                </control>
-                </control>
-
-
-
 
 </control>
 
