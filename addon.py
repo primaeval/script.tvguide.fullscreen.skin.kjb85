@@ -16,4 +16,3 @@ if ok:
         tvgf.setSetting('program.image.scale', 'false')
         tvgf.setSetting('epg.video.pip', 'true')
         tvgf.setSetting('program.image', 'true')
-       
