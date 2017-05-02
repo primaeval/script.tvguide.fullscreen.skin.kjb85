@@ -2117,7 +2117,7 @@
                 <aligny>center</aligny>
                 <label>[B]18:00[/B]</label>
                 <textcolor>white</textcolor>
-                <font>font14</font>
+                <font>font13</font>
             </control>
             <control type="label" id="6001">
                 <description>Program title OSD</description>
@@ -2150,7 +2150,7 @@
                 <aligny>center</aligny>
                 <label>[B]18:00[/B]</label>
                 <textcolor>white</textcolor>
-                <font>font14</font>
+                <font>font13</font>
             </control>            
             <control type="label" id="6008">
                 <description>Next Program title OSD align left</description>
