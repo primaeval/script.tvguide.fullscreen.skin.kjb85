@@ -207,9 +207,9 @@
                 <visible>false</visible>
                 <texture>background-cover2.png</texture>
             </control>
-            
 
-            
+
+
 
 
             <!--<control type="image">
@@ -252,7 +252,7 @@
                 <aligny>center</aligny>
                 <visible>False</visible>
             </control>
-			
+
 
 	    <control type="image">
                 <description>channels background</description>
@@ -503,15 +503,15 @@
 				<texture>black-back.png</texture>
 				<aspectratio>stretch</aspectratio>
 			</control>
-			
-			
+
+
             <control type="group">
                 <posx>0</posx>
                 <posy>248</posy>
                 <width>1280</width>
                 <height>30</height>
                 <visible>true</visible>
-				
+
 				<control type="image">
 					<posx>4</posx>
 					<posy>0</posy>
@@ -650,7 +650,7 @@
                     <aligny>center</aligny>
                 </control>
             </control>
-			
+
 
 			<control type="image">
 				<posx>0</posx>
@@ -1472,7 +1472,7 @@
                     <visible>true</visible>
                 </control>
             </control>
-			
+
 			<control type="image">
 				<posx>2</posx>
 				<posy>280</posy>
@@ -1511,7 +1511,7 @@
 				<scroll>true</scroll>
 				<label>-</label>
 			</control>
-			
+
 			<control type="grouplist">
 				<posx>20</posx>
 				<posy>50</posy>
@@ -1560,7 +1560,7 @@
                 <midtexture colordiffuse="lawngreen">tvg-button-focus.png</midtexture>
                 <visible>IntegerGreaterThan(Control.GetLabel(7026),0)</visible>
             </control>
-			
+
 			<control type="grouplist">
 				<posx>20</posx>
 				<posy>90</posy>
@@ -2036,7 +2036,7 @@
 	    		<posy>548</posy>
             <visible>!Control.IsVisible(6000)</visible>
             <animation effect="fade" start="0" end="100" time="0">VisibleChange</animation>
-  
+
 	                <control type="image">
 	                <description>Glass Logo</description>
 	                <posx>0</posx>
@@ -2111,29 +2111,30 @@
             <control type="label" id="60021">
                 <description>Program start time OSD</description>
                 <posx>250</posx>
-                <posy>18</posy>
-                <width>85</width>
-                <height>23</height>  
+                <posy>14</posy>
+                <width>100</width>
+                <height>30</height>
                 <aligny>center</aligny>
                 <label>[B]18:00[/B]</label>
                 <textcolor>white</textcolor>
-                <font>font13</font>
+                <font>font14</font>
             </control>
             <control type="label" id="6001">
                 <description>Program title OSD</description>
-                <posx>338</posx>
+                <posx>358</posx>
                 <posy>14</posy>
-                <width>760</width>
+                <width>740</width>
                 <height>30</height>
+                <aligny>center</aligny>
                 <font>font14_bold</font>
                 <textcolor>white</textcolor>
                 <scroll>true</scroll>
             </control>
             <control type="textbox" id="6003">
                 <description>Program description OSD</description>
-                <posx>338</posx>
+                <posx>358</posx>
                 <posy>45</posy>
-                <width>760</width>
+                <width>740</width>
                 <height>72</height>
                 <label>Description</label>
                 <textcolor>white</textcolor>
@@ -2145,19 +2146,20 @@
                 <description>Next Program start time OSD align left</description>
                 <posx>250</posx>
                 <posy>130</posy>
-                <width>85</width>
-                <height>23</height>
+                <width>100</width>
+                <height>30</height>
                 <aligny>center</aligny>
                 <label>[B]18:00[/B]</label>
                 <textcolor>white</textcolor>
-                <font>font13</font>
-            </control>            
+                <font>font14</font>
+            </control>
             <control type="label" id="6008">
                 <description>Next Program title OSD align left</description>
-                <posx>338</posx>
+                <posx>358</posx>
                 <posy>130</posy>
-                <width>760</width>
-                <height>23</height>
+                <width>740</width>
+                <height>30</height>
+                <aligny>center</aligny>
                 <font>font14_bold</font>
                 <textcolor>white</textcolor>
                 <scroll>true</scroll>
@@ -2446,7 +2448,7 @@
                 <aligny>center</aligny>
                 <fadetime>200</fadetime>
             </control>
-			
+
             <control type="image" id="14601">
                 <description>header</description>
                 <posx>0</posx>
